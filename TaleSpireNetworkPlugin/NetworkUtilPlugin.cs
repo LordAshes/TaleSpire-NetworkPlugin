@@ -182,6 +182,15 @@ namespace NetworkPlugin
         }
 
         /// <summary>
+        /// Allows a mod to determine if they're hosting or client
+        /// </summary>
+        /// <returns>true or false value if they're hosting.</returns>
+        public static bool IsClient()
+        {
+            return client.isConnected();
+        }
+
+        /// <summary>
         /// Allows a mod to obtain a consistent GUID to determine player id.
         /// </summary>
         /// <returns>Guid for the player.</returns>
