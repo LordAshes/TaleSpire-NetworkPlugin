@@ -68,7 +68,7 @@ namespace NetworkPlugin
                             server.StartOn(KeyCode.Y, ClientRequests);
 
                             // Check to see if the Sync Mod Server has sent a notification and connect to the Sync Mod Server if one is sent
-                            client.CheckForServerNotification(ServerRequests);
+                            if (!server.isRunning()) client.CheckForServerNotification(ServerRequests);
 
                             // Broadcasting all server messages
                             if (server.isRunning())
