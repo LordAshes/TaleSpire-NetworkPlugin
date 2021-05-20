@@ -95,15 +95,6 @@ namespace NetworkPlugin
                                     client.Send(serialized);
                                 }
                             }
-                            
-                            // Dump log
-                            if (Input.GetKeyDown(KeyCode.X))
-                            {
-                                foreach (UnityEngine.Object obj in Resources.FindObjectsOfTypeAll(typeof(UnityEngine.Object)))
-                                {
-                                    UnityEngine.Debug.Log(obj.ToString());
-                                }
-                            }
                         }
                     }
                 }
