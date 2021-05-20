@@ -184,7 +184,7 @@ namespace NetworkPlugin
         /// <summary>
         /// Allows a mod to determine if they're hosting or client
         /// </summary>
-        /// <returns>true or false value if they're hosting.</returns>
+        /// <returns>true or false value if they're connected.</returns>
         public static bool IsClient()
         {
             return client.isConnected();
