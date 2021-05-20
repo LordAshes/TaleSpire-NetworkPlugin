@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TaleSpireNetworkPlugin/bin/Debug
+/TaleSpireNetworkPlugin/obj/Debug
+/.vs/TaleSpireNetworkPlugin/v16
