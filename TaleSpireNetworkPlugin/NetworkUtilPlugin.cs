@@ -29,8 +29,11 @@ namespace NetworkPlugin
         private static string dir = Application.dataPath.Substring(0, Application.dataPath.LastIndexOf("/")) + "/TaleSpire_CustomData/";
 
         // Chat handler
-        private Network.Server server = new Network.Server();
-        private Network.Client client = new Network.Client();
+        private static Network.Server server = new Network.Server();
+        private static Network.Client client = new Network.Client();
+
+        // Need to generate an AuthorId 
+        private static Guid AuthorId = System.Guid.NewGuid();
 
         private List<string> last = new List<string>();
 
@@ -167,6 +170,24 @@ namespace NetworkPlugin
         public static void ServerSendMessage(NetworkMessage message)
         {
             _serverMessages.Enqueue(message);
+        }
+
+        /// <summary>
+        /// Allows a mod to determine if they're hosting or client
+        /// </summary>
+        /// <returns>true or false value if they're hosting.</returns>
+        public static bool IsHost()
+        {
+            return server.isRunning();
+        }
+
+        /// <summary>
+        /// Allows a mod to obtain a consistent GUID to determine player id.
+        /// </summary>
+        /// <returns>Guid for the player.</returns>
+        public static Guid GetAuthorId()
+        {
+            return AuthorId;
         }
     }
 }
