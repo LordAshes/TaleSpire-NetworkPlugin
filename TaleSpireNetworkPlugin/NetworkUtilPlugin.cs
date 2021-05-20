@@ -67,6 +67,7 @@ namespace NetworkPlugin
                             // Check to see if the Sync Mod Server has sent a notification and connect to the Sync Mod Server if one is sent
                             client.CheckForServerNotification(ServerRequests);
 
+                            // Broadcasting all server messages
                             if (server.isRunning())
                             {
                                 while (_serverMessages.TryDequeue(out var message))
@@ -77,6 +78,7 @@ namespace NetworkPlugin
                                 }
                             }
 
+                            // Sending all messages from client to server
                             if (client.isConnected()) {
                                 while (_clientMessages.TryDequeue(out var message)) {
                                     UnityEngine.Debug.Log("Sending Client Message!");
@@ -85,6 +87,7 @@ namespace NetworkPlugin
                                 }
                             }
                             
+                            // Dump log
                             if (Input.GetKeyDown(KeyCode.X))
                             {
                                 foreach (UnityEngine.Object obj in Resources.FindObjectsOfTypeAll(typeof(UnityEngine.Object)))
@@ -122,6 +125,12 @@ namespace NetworkPlugin
             callback(client, messageRequest);
         }
 
+        /// <summary>
+        /// Adds a call back for specific mod for Method to handle messages sent from the client to the server
+        /// </summary>
+        /// <param name="key">Guid of the mod that is using the callback.</param>
+        /// <param name="callback">the method that is called back upon message being received.</param>
+        /// <returns>success if the callback is stored</returns>
         public static bool AddClientCallback(string key, Action<Socket, NetworkMessage> callback)
         {
             if (_clientCallbacks.ContainsKey(key)) return false;
@@ -129,6 +138,12 @@ namespace NetworkPlugin
             return true;
         }
 
+        /// <summary>
+        /// Adds a call back for specific mod for Method to handle messages sent from the server to the client
+        /// </summary>
+        /// <param name="key">Guid of the mod that is using the callback.</param>
+        /// <param name="callback">the method that is called back upon message being received.</param>
+        /// <returns>success if the callback is stored</returns>
         public static bool AddServerCallback(string key, Action<Socket, NetworkMessage> callback)
         {
             if (_serverCallbacks.ContainsKey(key)) return false;
@@ -136,11 +151,19 @@ namespace NetworkPlugin
             return true;
         }
 
+        /// <summary>
+        /// Queues a message to be sent to the server from the client
+        /// </summary>
+        /// <param name="message">message to be sent</param>
         public static void ClientSendMessage(NetworkMessage message)
         {
             _clientMessages.Enqueue(message);
         }
 
+        /// <summary>
+        /// Queues a message to be broadcast from the server to the clients
+        /// </summary>
+        /// <param name="message">message to broadcast</param>
         public static void ServerSendMessage(NetworkMessage message)
         {
             _serverMessages.Enqueue(message);
