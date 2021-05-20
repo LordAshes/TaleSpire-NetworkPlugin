@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using Newtonsoft.Json;
 using UnityEngine;
 using System.Collections.Concurrent;
+using BepInEx.Configuration;
 
 namespace NetworkPlugin
 {
@@ -35,6 +36,9 @@ namespace NetworkPlugin
         // Need to generate an AuthorId 
         private static Guid AuthorId = System.Guid.NewGuid();
 
+        // Configs
+        private ConfigEntry<KeyboardShortcut> StartServerKey { get; set; }
+
         private List<string> last = new List<string>();
 
         /// <summary>
@@ -44,6 +48,8 @@ namespace NetworkPlugin
         void Awake()
         {
             UnityEngine.Debug.Log("Network Plugin Active.");
+
+            StartServerKey = Config.Bind("Hotkeys", "Start Mod Network Shortcut", new KeyboardShortcut(KeyCode.Y));
         }
 
         /// <summary>
@@ -65,7 +71,7 @@ namespace NetworkPlugin
                         if (!BoardSessionManager.IsLoading)
                         {
                             // Check for user input to determine if the Sync Mod Server status should be toggled
-                            server.StartOn(KeyCode.Y, ClientRequests);
+                            server.StartOn(StartServerKey.Value.MainKey, ClientRequests);
 
                             // Check to see if the Sync Mod Server has sent a notification and connect to the Sync Mod Server if one is sent
                             if (!server.isRunning()) client.CheckForServerNotification(ServerRequests);
