@@ -2,7 +2,6 @@
 using BepInEx;
 using System.Collections.Generic;
 using System.Net.Sockets;
-using GameSequencer;
 using Newtonsoft.Json;
 using UnityEngine;
 using System.Collections.Concurrent;

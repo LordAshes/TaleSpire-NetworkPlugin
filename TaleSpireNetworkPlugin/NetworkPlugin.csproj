@@ -75,14 +75,8 @@
     <Reference Include="Cinemachine">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Cinemachine.dll</HintPath>
     </Reference>
-    <Reference Include="com.alelievr.NodeGraphProcessor.Runtime">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\com.alelievr.NodeGraphProcessor.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="MonoMod.RuntimeDetour">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\MonoMod.RuntimeDetour.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.Utils">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\MonoMod.Utils.dll</HintPath>
@@ -96,53 +90,29 @@
     <Reference Include="Photon3Unity3D">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Photon3Unity3D.dll</HintPath>
     </Reference>
-    <Reference Include="PhotonUtil">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\PhotonUtil.dll</HintPath>
-    </Reference>
     <Reference Include="ShapesRuntime">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\ShapesRuntime.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Unity.Addressables">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Addressables.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Animation.Rigging">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Burst.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Deformations">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Deformations.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Entities.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Entities.Hybrid">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Entities.Hybrid.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Jobs">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Jobs.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Localization">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Localization.dll</HintPath>
@@ -162,20 +132,11 @@
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Properties">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Properties.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rendering.Hybrid">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Rendering.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Scenes">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Scenes.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Serialization">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.TextMeshPro.dll</HintPath>
@@ -183,32 +144,14 @@
     <Reference Include="Unity.Timeline">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Transforms">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\Unity.Transforms.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>G:\Unity\2019.4.19f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Graphs">
-      <HintPath>G:\Unity\2019.4.19f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.AIModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.AndroidJNIModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.AnimationModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.AssetBundleModule.dll</HintPath>
@@ -216,35 +159,11 @@
     <Reference Include="UnityEngine.AudioModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.ClusterRendererModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.CrashReportingModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.DirectorModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.DirectorModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.DSPGraphModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.GameCenterModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GridModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.GridModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.IMGUIModule.dll</HintPath>
@@ -252,23 +171,11 @@
     <Reference Include="UnityEngine.InputLegacyModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.InputModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.InputModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.LocalizationModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.ParticleSystemModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.PerformanceReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.PhysicsModule.dll</HintPath>
@@ -279,92 +186,23 @@
     <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.SpriteMaskModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.SpriteShapeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.StreamingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.SubsystemsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.TerrainModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.TerrainPhysicsModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.TextCoreModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.TextCoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.TilemapModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UIElementsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsNativeModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UIModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UNETModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UNETModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityAnalyticsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityCurlModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityCurlModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
       <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>..\..\PhotonUtilPlugin\PhotonUtilPlugin\bin\Debug\UnityEngine.VehiclesModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VFXModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\TaleSpire\TaleSpire_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\TaleSpire\TaleSpire_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\TaleSpire\TaleSpire_Data\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\TaleSpire\TaleSpire_Data\Managed\UnityEngine.VRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\TaleSpire\TaleSpire_Data\Managed\UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\TaleSpire\TaleSpire_Data\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
