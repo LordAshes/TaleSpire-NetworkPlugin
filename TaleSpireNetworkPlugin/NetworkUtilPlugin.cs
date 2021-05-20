@@ -117,6 +117,7 @@ namespace NetworkPlugin
         /// <param name="request">String request</param>
         private void ServerRequests(Socket client, string request)
         {
+            UnityEngine.Debug.Log("Receiving Server Message!");
             var messageRequest = JsonConvert.DeserializeObject<NetworkMessage>(request);
             var callback = _serverCallbacks[messageRequest.PackageId];
             callback(client, messageRequest);
@@ -129,6 +130,7 @@ namespace NetworkPlugin
         /// <param name="request">String request</param>
         private void ClientRequests(Socket client, string request)
         {
+            UnityEngine.Debug.Log("Receiving Client Message!");
             var messageRequest = JsonConvert.DeserializeObject<NetworkMessage>(request);
             var callback = _clientCallbacks[messageRequest.PackageId];
             callback(client, messageRequest);
